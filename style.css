@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+li{
+    list-style: none;
+ 
+}
+img{
+    cursor: pointer;
+}
+.first-div{
+    background: url(./images/hero-desktop.svg) no-repeat;
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+    margin-top: -68px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+}
+
+.navs{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    z-index: 99;
+}
+
+.navbar-nav{
+    font-size: large;
+    gap: 45px;
+}
+.text-container{
+    position: absolute;
+    top: 40%;
+    margin-left: 12%;
+}
+.text-container h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 5rem;
+    white-space: pre;
+    color: #203152;
+    letter-spacing: .05rem;
+}
+.text-container button{
+    width: 8rem;
+    height: 3.85rem;
+    border: 0.15rem solid #890cbd;
+    color: #890cbd;
+    font-weight: 700;
+    border-radius: 4rem;
+}
+.text-container button:hover{
+    background-color: #890cbd;
+    color: white;
+}
+.row{
+    margin: 0;
+}
+
+.first-div-1{
+        background: url(./images/upi-desktop.svg) ;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        margin: 0;
+        background-position: center;
+
+}
+.inner-1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    color: #890cbd;
+    border: 0.1rem solid #890cbd;
+    border-radius: 0.5rem;
+    height: 2.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+}
+.inner-2{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.inner-3{
+    font-size: x-large;
+}
+.first-div-1 > div{
+    padding: 5rem 0 0 12%;
+    width: 30rem;
+}
+.first-div-2{
+    background: url(./images/borrow-desktop.svg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+.first-div-2 > div{
+    padding: 5rem 0 0 12%;
+    width: 30rem;
+}
+
+.first-div-3{
+    background: url(./images/mini-desktop.svg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+
+}
+.first-div-3 > div{
+    padding: 5rem 0 0 12%;
+    width: 30rem;
+}
+.footer{
+    padding: 5% 5% 1% 5%;
+}
+.footer.row{
+    width: 100%;
+    background-color: #890cbd;
+    margin: 0;
+    display: flex;
+}
+.imgs{
+    display: flex;
+    gap: 2rem;
+}
+.footer div{
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    width: auto;
+}
+.footer span{
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+    width: auto;
+}
