@@ -4,7 +4,12 @@
 li a{
     text-decoration: none;
     color: white;
-    font-size: 1.1rem;
+    
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
 }
 li{
     list-style: none;
@@ -80,7 +85,7 @@ img{
 }
 .inner-1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.5rem;
+    font-size: 2.5vw;
     color: #890cbd;
     border: 0.1rem solid #890cbd;
     border-radius: 0.5rem;
@@ -88,18 +93,18 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10rem;
+    width: 15vw;
 }
 .inner-2{
-    font-size: 40px;
+    font-size: 4vw;
     font-weight: bolder;
 }
 .inner-3{
-    font-size: x-large;
+    font-size: 3vw;
 }
 .first-div-1 > div{
     padding: 5rem 0 0 12%;
-    width: 30rem;
+    width: 50%;
 }
 .first-div-2{
     background: url(./images/borrow-desktop.svg);
@@ -111,7 +116,7 @@ img{
 }
 .first-div-2 > div{
     padding: 5rem 0 0 12%;
-    width: 30rem;
+    width: 50%;
 }
 
 .first-div-3{
@@ -125,7 +130,7 @@ img{
 }
 .first-div-3 > div{
     padding: 5rem 0 0 12%;
-    width: 30rem;
+    width: 50%;
 }
 .footer{
     padding: 5% 5% 1% 5%;
