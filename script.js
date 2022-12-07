@@ -21,21 +21,21 @@ var count = 1;
         }
     }
 
-    $(document).scroll(function() {
-        var y = $(this).scrollTop();
-        if (y > 500) {
-          $('.first-div-1 > div').fadeIn(150);
-        } else {
-          $('.first-div-1 > div').fadeOut(150);
-        }
-        if (y > 1100) {
-            $('.first-div-2 > div').fadeIn(100);
-          } else {
-            $('.first-div-2 > div').fadeOut(100);
-          }
-          if (y > 1600) {
-            $('.first-div-3 > div').fadeIn(100);
-          } else {
-            $('.first-div-3 > div').fadeOut(100);
-          }
-      });
+    // $(document).scroll(function() {
+    //     var y = $(this).scrollTop();
+    //     if (y > 500) {
+    //       $('.first-div-1 > div').fadeIn(150);
+    //     } else {
+    //       $('.first-div-1 > div').fadeOut(150);
+    //     }
+    //     if (y > 1100) {
+    //         $('.first-div-2 > div').fadeIn(100);
+    //       } else {
+    //         $('.first-div-2 > div').fadeOut(100);
+    //       }
+    //       if (y > 1600) {
+    //         $('.first-div-3 > div').fadeIn(100);
+    //       } else {
+    //         $('.first-div-3 > div').fadeOut(100);
+    //       }
+    //   });
