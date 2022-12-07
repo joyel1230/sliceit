@@ -28,6 +28,7 @@ img{
     display: flex;
     justify-content: center;
     background-position: center;
+    object-fit: cover;
 }
 
 .navs{
@@ -81,6 +82,7 @@ img{
         background-size: cover;
         margin: 0;
         background-position: center;
+        object-fit: cover;
 
 }
 .inner-1{
@@ -113,6 +115,8 @@ img{
     background-size: cover;
     background-position: center;
     margin: 0;
+    object-fit: cover;
+
 }
 .first-div-2 > div{
     padding: 5rem 0 0 12%;
@@ -126,6 +130,8 @@ img{
     background-size: cover;
     background-position: center;
     margin: 0;
+    object-fit: cover;
+
 
 }
 .first-div-3 > div{
