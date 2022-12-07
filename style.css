@@ -19,7 +19,7 @@ img{
     cursor: pointer;
 }
 .first-div{
-    background: url(./images/hero-desktop.svg) no-repeat;
+    background: url(./images/hero-desktop-png.png) no-repeat;
     width: 100%;
     height: 130vh;
     background-size: cover;
@@ -76,9 +76,8 @@ img{
 }
 
 .first-div-1{
-        background: url(./images/upi-desktop.svg) ;
+        background: url(./images/upi-desktop-png.png) ;
         width: 100%;
-        height: 100vh;
         background-size: cover;
         margin: 0;
         background-position: center;
@@ -95,23 +94,22 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 18vw;
+    width: 40%;
 }
 .inner-2{
-    font-size: 4vw;
+    font-size: 2rem;
     font-weight: bolder;
 }
 .inner-3{
-    font-size: 3vw;
+    font-size: 1rem;
 }
 .first-div-1 > div{
-    padding: 5rem 0 0 12%;
+    padding: 10rem 0 15rem 12%;
     width: 50%;
 }
 .first-div-2{
-    background: url(./images/borrow-desktop.svg);
+    background: url(./images/borrow-desktop-png.png);
     width: 100%;
-    height: 100vh;
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -119,14 +117,14 @@ img{
 
 }
 .first-div-2 > div{
-    padding: 5rem 0 0 12%;
+    padding: 10rem 0 15rem 12%;
     width: 50%;
 }
 
 .first-div-3{
-    background: url(./images/mini-desktop.svg);
+    background: url(./images/mini-desktop\ -png.png);
     width: 100%;
-    height: 100vh;
+
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -135,7 +133,7 @@ img{
 
 }
 .first-div-3 > div{
-    padding: 5rem 0 0 12%;
+    padding: 10rem 0 15rem 12%;
     width: 50%;
 }
 .footer{
