@@ -24,9 +24,9 @@ var count = 1;
     $(document).scroll(function() {
         var y = $(this).scrollTop();
         if (y > 500) {
-          $('.first-div-1 > div').fadeIn(100);
+          $('.first-div-1 > div').fadeIn(150);
         } else {
-          $('.first-div-1 > div').fadeOut(100);
+          $('.first-div-1 > div').fadeOut(150);
         }
         if (y > 1100) {
             $('.first-div-2 > div').fadeIn(100);
